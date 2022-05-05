@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@400;600&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#main-container {
+    background-color: #0D0D0D;
+}
+
+.navbar {
+    background-color: #111111;
+    font-weight: 600;
+}
+
+.btn-user {
+    background-color: #111111;
+}
+
+#user {
+    position: relative;
+    top: 3px;
+}
+
+.play-banner {
+    position: absolute;
+    top: 98%;
+    left: 20px;
+    z-index: 2;
+}
+
+.play {
+    padding: 6px 24px 6px 24px!important;
+}
+
+.img-play {
+    position: relative;
+    bottom: 2px;
+}
+
+.poster-2-wrapper {
+    width: 390px;
+    position: relative; 
+    z-index: 2; 
+    bottom: 15px; 
+    right: 25px;
+    background-color: #000000;
+    padding-bottom: 8px;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+#fixed-messager {
+    position: fixed;
+    z-index: 3;
+    top: 90%;
+    right: 36px;
+    width: fit-content;
+}
